@@ -33,4 +33,4 @@ jobs:
                 key: ${{runner.os}}-${{hashFiles('**/package-lock.json')}}
 
             - name: Rodar ts-prune
-              run: npm ts-prune --error
+              run: npx ts-prune --error
